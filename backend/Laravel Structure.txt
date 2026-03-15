@@ -1,0 +1,50 @@
+backend/
+│
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── AlertController.php
+│   │   │   ├── CameraController.php
+│   │   │   └── IncidentController.php
+│   │   │
+│   │   └── Middleware/
+│   │
+│   ├── Models/
+│   │   ├── Camera.php
+│   │   ├── Incident.php
+│   │   └── User.php
+│   │
+│   └── Services/
+│       ├── AIInferenceService.php
+│       ├── NotificationService.php
+│       └── EvidenceStorageService.php
+│
+├── database/
+│   ├── migrations/
+│   └── seeders/
+│
+├── routes/
+│   ├── api.php
+│   └── web.php
+│
+├── storage/
+│   ├── app/
+│   │   └── incidents/
+│   │       ├── videos/
+│   │       └── snapshots/
+│   │
+│   └── logs/
+│
+├── public/
+│
+└── .env
+
+
+{
+  "camera_id": "CAM_042",
+  "district": "Downtown",
+  "event_type": "Weapon Detected",
+  "confidence": 0.94,
+  "timestamp": "2026-01-25T21:41:00",
+  "snapshot_url": "/storage/incidents/042.jpg"
+}
