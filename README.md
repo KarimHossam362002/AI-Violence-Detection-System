@@ -65,6 +65,7 @@ The system is composed of the following main components:
 ---
 
 ## Project Structure
+```bash
 AI-Violence-Detection-System/
 ├── ai-model/
 │ ├── notebooks/
@@ -76,7 +77,7 @@ AI-Violence-Detection-System/
 ├── datasets/
 ├── docs/
 └── README.md
-
+```
 
 ---
 
