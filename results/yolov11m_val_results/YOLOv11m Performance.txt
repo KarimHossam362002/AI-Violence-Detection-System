@@ -1,0 +1,24 @@
+--- Model Performance Metrics ---
+
+Precision (overall): 0.8440
+Recall (overall): 0.6748
+mAP50: 0.7499
+mAP50-95: 0.4505
+
+--- Class-wise Precision ---
+Class Melee_weapons: 0.8005
+Class firearms: 0.8875
+
+--- Class-wise Recall ---
+Class Melee_weapons: 0.7882
+Class firearms: 0.5614
+
+--- Class-wise mAP50 ---
+Class Melee_weapons: 0.8303
+Class firearms: 0.6694
+
+--- Class-wise mAP50-95 ---
+Class Melee_weapons: 0.5053
+Class firearms: 0.3957
+
+Inference time for prediction: 97.67 ms
